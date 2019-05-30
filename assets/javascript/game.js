@@ -16,5 +16,24 @@ var userGuessText = document.getElementById("user-guess-text")
 
 var compGuessText = alphabet[Math.floor(Math.random()*alphabet.length)]
 
+// Logic for key press event
+document.onkeyup = function(event){
+
+    //Says which key was pressed
+    var userguess = event.key
+
+    if(userguess == alphabet ){
+
+    }
+
+    //logic that updates wins and losses
+    // if (compGuessText === userguess){
+    //     wins++
+    // } else{
+    //     losses++
+    // }
+
+
+}
 
 
